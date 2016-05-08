@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- <definition name="home" extends="DefaultTemplate"> <put-attribute name="body" 
+		value="/WEB-INF/views/home.jsp" /> </definition> -->
+	<definition name="homepage" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+
+	<definition name="booking" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/booking.jsp" />
+	</definition>
+
+	<definition name="bookingcarlist" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/bookingcarlist.jsp" />
+	</definition>
+
+	<definition name="bookingconfirm" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/bookingconfirm.jsp" />
+	</definition>
+
+	<definition name="addCar" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/car/addCar.jsp" />
+	</definition>
+
+	<definition name="carList" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/car/carList.jsp" />
+	</definition>
+	<definition name="updateCar" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/car/updateCar.jsp" />
+	</definition>
+
+<!-- 	<definition name="addCustomer" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/addCustomer.jsp" />
+	</definition>
+
+
+	<definition name="addRate" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/rate/addRate.jsp" />
+	</definition>
+
+	<definition name="account/login" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/account/login.jsp" />
+	</definition>
+
+-->
+	<definition name="account/login" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/account/login.jsp" />
+	</definition>
+<!-- Added Abdel File By Prabhat -->
+	<definition name="customersingle" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/singlecustomer.jsp" />
+	</definition>
+	<definition name="searchcustomer" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/customer/search.jsp" />
+	</definition>
+	<definition name="displaycustomer" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/customer.jsp" />
+	</definition>
+	<definition name="addcustomer" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/addcustomer.jsp" />
+	</definition>
+	<definition name="customerlist" extends="DefaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/customer/listcustomer.jsp" />
+	</definition>
+<!-- End of Added Abdel File By Prabhat -->	
+</tiles-definitions>
